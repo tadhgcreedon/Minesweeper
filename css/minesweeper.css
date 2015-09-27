@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #aab7c0;
+}
+
+.header {
+  text-align: center;
+  font-size: 36;
+  color: #22292f;
+}
+
+.sizeRange {
+  max-width: 250px;
+}
+
+#newGameFormDiv {
+  position: relative;
+  top: 35px;
+  padding: 10px;
+  width: 280px;
+  margin: auto;
+  background-color: gray;
+  outline: 1px solid black;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+
+}
+
+
+#minesSelect {
+  position: relative;
+  bottom: 1px;
+}
+
+#infoButton {
+  position: fixed;
+  bottom: 19px;
+  right: 80px;
+}
+
+#infoImage {
+  padding-top: 3px;
+}
+
+#quitButton {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+}
+
+#fieldTable {
+  position: relative;
+  top: 35px;
+  max-width: 85%;
+  margin:auto;
+  background-color: gray;
+  outline: 1px solid black;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.buttonSize {
+  height: 36px;
+}
+
+td {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+
+.numberOfMines1 {
+  color: #2a3c64;
+}
+.numberOfMines2 {
+  color: #19df64;
+}
+.numberOfMines3 {
+  color: #fbfc7d;
+}
+.numberOfMines4 {
+  color: #564e7d;
+}
+.numberOfMines5 {
+  color: #003c12;
+}
+.numberOfMines6 {
+  color: #ffffff;
+}
+.numberOfMines7 {
+  color: #7a2d3f;
+}
+.numberOfMines8 {
+  color: #fd6130;
+}
+
+.popover {
+  width: 300%;
+}
